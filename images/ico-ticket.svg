@@ -1,1 +1,10 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ticket-alt" class="svg-inline--fa fa-ticket-alt fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<path fill="#FCFCFC" d="M136,294h340v204H136V294z M561,396c0,28.167,22.833,51,51,51v102c0,28.167-22.833,51-51,51H51
+	c-28.167,0-51-22.833-51-51V447c28.167,0,51-22.833,51-51s-22.833-51-51-51V243c0-28.167,22.833-51,51-51h510
+	c28.167,0,51,22.833,51,51v102C583.833,345,561,367.833,561,396z M510,285.5c0-14.083-11.417-25.5-25.5-25.5h-357
+	c-14.083,0-25.5,11.417-25.5,25.5v221c0,14.083,11.417,25.5,25.5,25.5h357c14.083,0,25.5-11.417,25.5-25.5V285.5z"/>
+</svg>
