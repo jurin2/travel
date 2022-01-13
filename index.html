@@ -26,9 +26,93 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- 라이브러리/플러그인 -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bxslider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- smooth-scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js" integrity="sha512-0tWfLL+YANip9Uo2YUY4/SxvwDgPUuoSUcIXPFULXiXXgLKmiC/qCeDxnhl+mLobu6e/dSlyhGheCtzd9+RLCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- font-awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 기본공통스타일 -->
+    <link rel="stylesheet" href="./css/defult.css">
+
     <title>나를 위한 선물 - 여행</title>
+    
+    <script>
+        $(function(){
+            $('#btn-nav').on({
+                'click':function(){
+                    $('.header,.nav').toggleClass('show-nav');
+                },
+            })
+        })
+    </script>
 </head>
 <body>
-    
+    <a class="skip-menu" href="#main">본문 바로가기</a>
+
+    <section class="warp">
+        <header class="header">
+            <div class="container">
+                <div class="inner">
+                    <h1 class="logo">
+                        <a href="./index.html">
+                            <span>TRAVEL TOUR</span>
+                            <span>Korea Number 1 Travel</span>
+                        </a>
+                    </h1>
+                    <div class="btn-nav" id="btn-nav">
+                        <div class="line">라인1</div>
+                        <div class="line">라인2</div>
+                        <div class="line">라인3</div>
+                    </div>
+                    <nav class="nav">
+                        <ul class="member clearfix">
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                        <ul class="nav-list">
+                            <li class="bd-bt bd-rt">
+                                <a href="#">
+                                    <i class="fas fa-info-circle"></i>여행정보
+                                </a>
+                            </li>
+                            <li class="bd-bt">
+                                <a href="#">
+                                    <i class="fas fa-phone"></i>고객센터
+                                </a>
+                            </li>
+                            <li class="bd-bt bd-rt">
+                                <a href="#">
+                                    <i class="fas fa-car"></i>상품투어
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-ticket-alt"></i>티켓/가이드
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="slider"></section>
+        <section class="section" id="main"></section>
+        <section class="line"></section>
+        <section class="notice"></section>
+        <footer class="footer"></footer>
+    </section>
 </body>
 </html>
