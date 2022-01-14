@@ -12,6 +12,11 @@ window.onload=function(){
     $('.slider').bxSlider({
         auto:true,
     });
+    
+    // MOVE-TOP SMOOTHSCROLL
+    $('.footer .move-top a').smoothScroll({
+        speed: 600,
+    });
 
 }
 // $(function(){
