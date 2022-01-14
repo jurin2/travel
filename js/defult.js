@@ -18,6 +18,18 @@ window.onload=function(){
         speed: 600,
     });
 
+    // MODAL
+    $('.art01>.img-box').on({
+        'click':function(){
+            $('.art01 .modal').show();
+        }
+    })
+    $('.art01 .modal').on({
+        'click':function(){
+            $(this).hide();
+        }
+    })
+
 }
 // $(function(){
 //     $('#btn-nav').on({

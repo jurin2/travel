@@ -44,6 +44,10 @@
     <!-- font-awesome 5.15.4 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- modal -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
+
     <!-- 기본공통스타일 -->
     <link rel="stylesheet" href="./css/defult.css">
 
@@ -119,10 +123,17 @@
                 </div>
                 <article class="art01">
                     <div class="img-box">
-                        <a href="#"><img src="./images/best01.jpg" alt="제주도"></a>
+                        <a href="#" onclick="return false"><img src="./images/best01.jpg" alt="제주도"></a>
                     </div>    
-                        <h3 class="sm-tit">제주도 바다</h3>
-                        <p>한국·중국·일본 등 극동 지역의 중앙부에 있어 지정학적으로도 중요하며, 도 전체가 바다로 둘러싸였다. 한국 최남단에 있는 도로서, 제주도를 포함해 9개의 유인도와 55개의 무인도로 이루어졌다.</p>
+                        <h3 class="sm-tit"> 제주도 바다</h3>
+                        <p>한국·중국·일본 등 극동 지역의 중앙부에 있어 지정학적으로도 중요하며, 도 전체가 바다로 둘러싸였다.</p>
+                        <div class="modal">
+                            <div class="contents">
+                                <div class="img-box"><img src="./images/best01.jpg" alt="제주도 바다"></div>
+                                <h4 class="sm-tit">제주도 바다</h4>
+                                <p>대한민국의 남서쪽에 있는 섬. 행정구역상 광역자치단체인 제주특별자치도의 관할. 한국의 섬 중에서 가장 크고 인구가 많은 섬으로 면적은 1833.2㎢이다. 이는 대한민국 본토에서 가장 큰 기초자치단체인 홍천군보다 약간 크며, 제주도 다음 2번째 큰 섬인 거제도의 5배 정도 된다. 인구는 약 68만 명. 세계 섬 크기 218위이다.</p>
+                            </div>
+                        </div>
                 </article>
                 <article class="art02">
                     <div class="img-box">
@@ -136,7 +147,7 @@
                         <a href="#"><img src="./images/best03.jpg" alt="캐나다"></a>
                     </div>
                         <h3 class="sm-tit">캐나다 토론토</h3>
-                        <p>토론토는 온타리오 주의 주도다. 캐나다에서 가장 큰 도시이며 인구의 반이 캐나다 밖에서 출생한 이민자고, 200여 개의 민족이 130여 개의 언어와 사투리를 사용한다.</p>
+                        <p>토론토는 온타리오 주의 주도다. 캐나다에서 가장 큰 도시이며 200여 개의 민족이 130여 개의 언어와 사투리를 사용한다.</p>
                 </article>
             </div>
         </section>
@@ -181,7 +192,6 @@
 
         </footer>
     </section>
-
 
 </body>
 </html>
