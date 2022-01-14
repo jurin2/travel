@@ -29,33 +29,18 @@
     <!-- reset -->
     <link rel="stylesheet" href="./css/reset.css">
 
-    <!-- 라이브러리/플러그인 -->
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     <!-- bxslider -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- smooth-scroll -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js" integrity="sha512-0tWfLL+YANip9Uo2YUY4/SxvwDgPUuoSUcIXPFULXiXXgLKmiC/qCeDxnhl+mLobu6e/dSlyhGheCtzd9+RLCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- font-awesome 5.15.4 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- modal -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
 
     <!-- 기본공통스타일 -->
     <link rel="stylesheet" href="./css/defult.css">
 
-    <!-- 기본공통스크립트 -->
-    <script src="./js/defult.js"></script>
-
- 
-    
+    <!-- index스타일 -->
+    <link rel="stylesheet" href="./css/index-style.css">
 
     <title>나를 위한 선물 - 여행</title>
 </head>
@@ -79,27 +64,27 @@
                     </div>
                     <nav class="nav">
                         <ul class="member clearfix">
-                            <li><a href="#">로그인</a></li>
-                            <li><a href="#">회원가입</a></li>
+                            <li><a href="./login.html">로그인</a></li>
+                            <li><a href="./join.html">회원가입</a></li>
                         </ul>
                         <ul class="nav-list">
                             <li class="bd-bt bd-rt">
-                                <a href="#">
+                                <a href="./info.html">
                                     <i class="fas fa-info-circle"></i>여행정보
                                 </a>
                             </li>
                             <li class="bd-bt">
-                                <a href="#">
+                                <a href="./member-center.html">
                                     <i class="fas fa-phone"></i>고객센터
                                 </a>
                             </li>
                             <li class="bd-bt bd-rt">
-                                <a href="#">
+                                <a href="./tour-program.html">
                                     <i class="fas fa-car"></i>상품투어
                                 </a>
                             </li>
                             <li class="bd-bt">
-                                <a href="#">
+                                <a href="./ticket.html">
                                     <i class="fas fa-ticket-alt"></i>티켓/가이드
                                 </a>
                             </li>
@@ -121,13 +106,13 @@
                     <h2>다시 찾는 인기여행지</h2>
                     <h3 class="sm-tit">TOP3</h3>
                 </div>
-                <article class="art01">
+                <article class="art01" id="art01">
                     <div class="img-box">
                         <a href="#" onclick="return false"><img src="./images/best01.jpg" alt="제주도"></a>
                     </div>    
                         <h3 class="sm-tit"> 제주도 바다</h3>
                         <p>한국·중국·일본 등 극동 지역의 중앙부에 있어 지정학적으로도 중요하며, 도 전체가 바다로 둘러싸였다.</p>
-                        <div class="modal">
+                        <div class="modal" id="modal01">
                             <div class="contents">
                                 <div class="img-box"><img src="./images/best01.jpg" alt="제주도 바다"></div>
                                 <h4 class="sm-tit">제주도 바다</h4>
@@ -190,8 +175,36 @@
                 </div>
             </div>
 
+           
         </footer>
     </section>
 
+        <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+
+    <!-- bxslider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- smooth-scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js" integrity="sha512-0tWfLL+YANip9Uo2YUY4/SxvwDgPUuoSUcIXPFULXiXXgLKmiC/qCeDxnhl+mLobu6e/dSlyhGheCtzd9+RLCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 기본공통스크립트 -->
+    <script src="./js/defult.js"></script>
+
+    <script>
+        let _slider = document.querySelector('.slider');
+        mySlider(_slider);
+
+        let moveBtn = document.querySelector('.footer .move-top a');
+        smScl(moveBtn);
+        
+        let _art01 = document.getElementById('art01');// _art 이벤트 트리거
+        let _modal01 = document.getElementById('modal01');// _modal01 target
+        disBlock(_art01,_modal01);
+        
+        let _modal = document.querySelectorAll('.modal');// _modal 트리거/target
+        disNone(_modal);
+     </script>
 </body>
 </html>
