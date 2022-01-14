@@ -1,4 +1,5 @@
 window.onload=function(){
+    // NAV
     let btnNav = document.getElementById('btn-nav');
     btnNav.addEventListener('click',function(){
         let _header = document.querySelector('.header');
@@ -6,6 +7,12 @@ window.onload=function(){
         _header.classList.toggle('show-nav');
         _nav.classList.toggle('show-nav');
     });
+
+    // SLIDER
+    $('.slider').bxSlider({
+        auto:true,
+    });
+
 }
 // $(function(){
 //     $('#btn-nav').on({
