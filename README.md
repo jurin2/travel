@@ -10,4 +10,4 @@ HTML,CSS,Jquery,JavaScript를 공부하기 시작했을때 모바일 우선 사�
 <br><br>
 
 ### 1. 제이쿼리 플러그인 사용법의 공부를 위한 플러그인 사용
-<a href="https://github.com/kswedberg/jquery-smooth-scroll"><img src="https://img.shields.io/badge/CDNJS:bxslider-d96439?style=flat-square&logo=CDNJS&logoColor=white"/></a> <a href="https://github.com/stevenwanderski/bxslider-4"><img src="https://img.shields.io/badge/CDNJS:smoothScroll-d96439?style=flat-square&logo=CDNJS&logoColor=white"/></a>
+<a href="https://github.com/stevenwanderski/bxslider-4"><img src="https://img.shields.io/badge/CDNJS:bxslider-d96439?style=flat-square&logo=CDNJS&logoColor=white"/></a> <a href="https://github.com/kswedberg/jquery-smooth-scroll"><img src="https://img.shields.io/badge/CDNJS:smoothScroll-d96439?style=flat-square&logo=CDNJS&logoColor=white"/></a>
